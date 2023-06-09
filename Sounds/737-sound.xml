@@ -520,7 +520,7 @@
  <engine>
         <name>left reverse-thrust</name>
         <mode>looped</mode>
-        <path>Aircraft/737-800YV/Sounds/reverser.wav</path>
+        <path>Aircraft/737-Next-Generation/Sounds/reverser.wav</path>
         <condition>
             <property>engines/engine[0]/running</property>
         </condition>
@@ -542,7 +542,7 @@
     <engine>
         <name>right reverse-thrust</name>
         <mode>looped</mode>
-        <path>Aircraft/737-800YV/Sounds/reverser.wav</path>
+        <path>Aircraft/737-Next-Generation/Sounds/reverser.wav</path>
         <condition>
             <property>engines/engine[1]/running</property>
         </condition>
@@ -563,7 +563,7 @@
 
 	        <rumble>
 			<name>rumble</name>
-			<path>Aircraft/737-800YV/Sounds/rumble.wav</path>
+			<path>Aircraft/737-Next-Generation/Sounds/rumble.wav</path>
 			<mode>looped</mode>
 			<condition>
 				<property>sim/current-view/internal</property>
@@ -591,7 +591,7 @@
 		<flap>
 			<name>flaps</name>
 			<mode>in-transit</mode>
-			<path>Aircraft/737-800YV/Sounds/flaps.wav</path>
+			<path>Aircraft/737-Next-Generation/Sounds/flaps.wav</path>
 			<property>/surface-positions/flap-pos-norm</property>
 			<volume>
 				<property>sim/current-view/z-offset-m</property>
@@ -605,7 +605,7 @@
 		<gear>
 			<name>gear</name>
 			<mode>in-transit</mode>
-			<path>Aircraft/737-800YV/Sounds/gear.wav</path>
+			<path>Aircraft/737-Next-Generation/Sounds/gear.wav</path>
 			<property>/gear/gear[0]/position-norm</property>
 			<pitch>
 				<internal>dt_play</internal>
@@ -616,7 +616,7 @@
 		
 		<overspeed>
 			<name>Overspeed warning</name>
-			<path>Aircraft/737-800YV/Sounds/overspeed.wav</path>
+			<path>Aircraft/737-Next-Generation/Sounds/overspeed.wav</path>
 			<mode>looped</mode>
 			<condition>
 				<greater-than>
@@ -634,7 +634,7 @@
 		<altAlert>
 			<name>altAlert</name>
 			<mode>once</mode>
-			<path>Aircraft/737-800YV/Sounds/altAlert.wav</path>
+			<path>Aircraft/737-Next-Generation/Sounds/altAlert.wav</path>
 			<property>/b737/warnings/altitude-alert</property>
 			<volume>
 				<factor>1.0</factor>
@@ -645,7 +645,7 @@
 		<altAlert>
 			<name>fireAlert</name>
 			<mode>looped</mode>
-			<path>Aircraft/737-800YV/Sounds/fire-bell.wav</path>
+			<path>Aircraft/737-Next-Generation/Sounds/fire-bell.wav</path>
 			<property>/instrumentation/weu/outputs/fire-warn-lamp</property>
 			<volume>
 			  <factor>1.0</factor>
@@ -660,7 +660,7 @@
 		<ap-disconnect>
 			<name>AP Disconnect</name>
 			<mode>once</mode>
-			<path>Aircraft/737-800YV/Sounds/Apdisco.wav</path>
+			<path>Aircraft/737-Next-Generation/Sounds/Apdisco.wav</path>
 			<condition>
 				<property>/it-autoflight/sound/apoffsound</property>
 			</condition>
@@ -672,7 +672,7 @@
 		<ap-disconnect>
 			<name>AP Disconnect 2</name>
 			<mode>once</mode>
-			<path>Aircraft/737-800YV/Sounds/Apdisco.wav</path>
+			<path>Aircraft/737-Next-Generation/Sounds/Apdisco.wav</path>
 			<condition>
 				<property>/it-autoflight/sound/apoffsound2</property>
 			</condition>
@@ -686,7 +686,7 @@
 		<trimming>
 			<name>trimming</name>
 			<mode>once</mode>
-			<path>Aircraft/737-800YV/Sounds/trim.wav</path>
+			<path>Aircraft/737-Next-Generation/Sounds/trim.wav</path>
 			<condition>
 				<property>/b737/sound/stab-trim</property>
 			</condition>
@@ -698,7 +698,7 @@
 		<stall>
 			<name>stall</name>
 			<mode>loop</mode>
-			<path>Aircraft/737-800YV/Sounds/stall.wav</path>
+			<path>Aircraft/737-Next-Generation/Sounds/stall.wav</path>
 			<condition>
 				<equals>
 					<property>/b737/sound/stall</property>
@@ -711,7 +711,7 @@
 
 		<fuelpump>
 			<name>fuel truck pump transfer</name>
-			<path>/Aircraft/737-800YV/Sounds/electricalengine.wav</path>
+			<path>/Aircraft/737-Next-Generation/Sounds/electricalengine.wav</path>
 			<mode>looped</mode>
 			<condition>
 				<less-than>	
@@ -737,7 +737,7 @@
 
     <fueltruck>
     	<name>fuel truck pump clean</name>
-    	<path>/Aircraft/737-800YV/Sounds/electricalengine.wav</path>
+    	<path>/Aircraft/737-Next-Generation/Sounds/electricalengine.wav</path>
     	<mode>looped</mode>
     	<condition>
     		<less-than>	
@@ -763,7 +763,7 @@
 
     <deice>
     	<name>de ice truck operation</name>
-    	<path>/Aircraft/737-800YV/Sounds/electricalengine.wav</path>
+    	<path>/Aircraft/737-Next-Generation/Sounds/electricalengine.wav</path>
     	<mode>looped</mode>
     	<condition>
     		<less-than>	
@@ -791,7 +791,7 @@
 
     <announcement>
     	<name>welcome</name>
-    	<path>Aircraft/737-800YV/Sounds/announce/welcome.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/announce/welcome.wav</path>
     	<mode>once</mode>
     	<condition>
     		<property>sim/sound/welcome</property>
@@ -810,7 +810,7 @@
 
     <announcement>
     	<name>safety</name>
-    	<path>Aircraft/737-800YV/Sounds/announce/safety.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/announce/safety.wav</path>
     	<mode>once</mode>
     	<condition>
     		<property>sim/sound/safety</property>
@@ -829,7 +829,7 @@
 
     <announcement>
     	<name>cruise</name>
-    	<path>Aircraft/737-800YV/Sounds/announce/cruise.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/announce/cruise.wav</path>
     	<mode>once</mode>
     	<condition>
     		<property>sim/sound/cruise</property>
@@ -848,7 +848,7 @@
 
     <announcement>
     	<name>climb</name>
-    	<path>Aircraft/737-800YV/Sounds/announce/climb.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/announce/climb.wav</path>
     	<mode>once</mode>
     	<condition>
     		<property>sim/sound/climb</property>
@@ -864,7 +864,7 @@
 
     <announcement>
     	<name>cruise-seatbelt</name>
-    	<path>Aircraft/737-800YV/Sounds/announce/cruise-seatbelt.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/announce/cruise-seatbelt.wav</path>
     	<mode>once</mode>
     	<condition>
     		<property>sim/sound/cruise-seatbelt</property>
@@ -883,7 +883,7 @@
 
     <announcement>
     	<name>turbulence</name>
-    	<path>Aircraft/737-800YV/Sounds/announce/turbulence.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/announce/turbulence.wav</path>
     	<mode>once</mode>
     	<condition>
     		<property>sim/sound/turbulence</property>
@@ -902,7 +902,7 @@
 
     <announcement>
     	<name>descent</name>
-    	<path>Aircraft/737-800YV/Sounds/announce/descent.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/announce/descent.wav</path>
     	<mode>once</mode>
     	<condition>
     		<property>sim/sound/descent</property>
@@ -921,7 +921,7 @@
 
     <announcement>
     	<name>land</name>
-    	<path>Aircraft/737-800YV/Sounds/announce/land.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/announce/land.wav</path>
     	<mode>once</mode>
     	<condition>
     		<property>sim/sound/land</property>
@@ -940,7 +940,7 @@
 
     <announcement>
     	<name>gate</name>
-    	<path>Aircraft/737-800YV/Sounds/announce/gate.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/announce/gate.wav</path>
     	<mode>once</mode>
     	<condition>
     		<property>sim/sound/gate</property>
@@ -959,7 +959,7 @@
 
     <announcement>
     	<name>emergency</name>
-    	<path>Aircraft/737-800YV/Sounds/announce/emergency.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/announce/emergency.wav</path>
     	<mode>once</mode>
     	<condition>
     		<property>sim/sound/emergency</property>
@@ -978,7 +978,7 @@
 
     <announcement>
     	<name>pretakeoff</name>
-    	<path>Aircraft/737-800YV/Sounds/announce/pretakeoff.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/announce/pretakeoff.wav</path>
     	<mode>once</mode>
     	<condition>
     		<property>sim/sound/pretakeoff</property>
@@ -997,7 +997,7 @@
 
     <announcement>
     	<name>brace</name>
-    	<path>Aircraft/737-800YV/Sounds/announce/brace.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/announce/brace.wav</path>
     	<mode>once</mode>
     	<condition>
     		<property>sim/sound/brace</property>
@@ -1016,7 +1016,7 @@
     
     <seatbelt>
     	<name>cabinalert</name>
-    	<path>Aircraft/737-800YV/Sounds/cabinalert.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/cabinalert.wav</path>
     	<mode>once</mode>
     	<condition>
     		<or>
@@ -1036,7 +1036,7 @@
 
     <gpws>
     	<name>2500</name>
-    	<path>Aircraft/737-800YV/Sounds/gpws/altitude-2500.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/gpws/altitude-2500.wav</path>
     	<mode>once</mode>
     	<condition>
     		<and>
@@ -1063,7 +1063,7 @@
     	<name>appr_mins</name>
     	<mode>once</mode>
     	<type>avionics</type>		
-    	<path>Aircraft/737-800YV/Sounds/approaching-minimums.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/approaching-minimums.wav</path>
     	<condition>
     		<less-than>
     			<property>/position/altitude-agl-ft</property>
@@ -1085,7 +1085,7 @@
     <wow>
     	<name>wow 0</name>
     	<mode>once</mode>
-    	<path>Aircraft/737-800YV/Sounds/wow.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/wow.wav</path>
     	<condition>
     		<property>gear/gear[0]/wow</property>
     	</condition>
@@ -1097,7 +1097,7 @@
     <wow>
     	<name>wow 1</name>
     	<mode>once</mode>
-    	<path>Aircraft/737-800YV/Sounds/wow.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/wow.wav</path>
     	<condition>
     		<property>gear/gear[1]/wow</property>
     	</condition>
@@ -1109,7 +1109,7 @@
     <wow>
     	<name>wow 2</name>
     	<mode>once</mode>
-    	<path>Aircraft/737-800YV/Sounds/wow.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/wow.wav</path>
     	<condition>
     		<property>gear/gear[2]/wow</property>
     	</condition>
@@ -1122,7 +1122,7 @@
     <wow>
     	<name>wow 3</name>
     	<mode>once</mode>
-    	<path>Aircraft/737-800YV/Sounds/wow.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/wow.wav</path>
     	<condition>
     		<property>gears/gear[0]/wow</property>
     	</condition>
@@ -1134,7 +1134,7 @@
     <wow>
     	<name>wow 4</name>
     	<mode>once</mode>
-    	<path>Aircraft/737-800YV/Sounds/wow.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/wow.wav</path>
     	<condition>
     		<property>gears/gear[1]/wow</property>
     	</condition>
@@ -1146,7 +1146,7 @@
     <wow>
     	<name>wow 5</name>
     	<mode>once</mode>
-    	<path>Aircraft/737-800YV/Sounds/wow.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/wow.wav</path>
     	<condition>
     		<property>gears/gear[2]/wow</property>
     	</condition>
@@ -1159,7 +1159,7 @@
     <rain>
     	<name>rain</name>
     	<mode>looped</mode>
-    	<path>Aircraft/737-800YV/Sounds/rain.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/rain.wav</path>
     	<condition>
     		<greater-than>
     			<property>/environment/rain-norm</property>
@@ -1185,7 +1185,7 @@
     
     <seatbelt>
     	<name>seatbelt sign</name>
-    	<path>Aircraft/737-800YV/Sounds/cabincall.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/cabincall.wav</path>
     	<mode>once</mode>
     	<condition>
     		<property>sim/sound/seatbelt-sign</property>
@@ -1204,7 +1204,7 @@
     
     <nosmoke>
     	<name>no smoking sign</name>
-    	<path>Aircraft/737-800YV/Sounds/cabincall.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/cabincall.wav</path>
     	<mode>once</mode>
     	<condition>
     		<property>sim/sound/no-smoking-sign</property>
@@ -1218,7 +1218,7 @@
     
     <avionics>
     	<name>avionics</name>
-    	<path>Aircraft/737-800YV/Sounds/avionics.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/avionics.wav</path>
     	<mode>looped</mode>
     	<condition>
     		<property>sim/current-view/internal</property>
@@ -1243,7 +1243,7 @@
     <switch>
     	<name>click on</name>
     	<mode>once</mode>
-    	<path>Aircraft/737-800YV/Sounds/click.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/click.wav</path>
     	<condition>
     		<property>/controls/switches/switch</property>
     	</condition>
@@ -1255,7 +1255,7 @@
     <cockpitdoor>
     	<name>open_close</name>
     	<mode>once</mode>
-    	<path>Aircraft/737-800YV/Sounds/door_close.wav</path>
+    	<path>Aircraft/737-Next-Generation/Sounds/door_close.wav</path>
     	<condition>
     		<property>/controls/doors/cockpitdoor/sound</property>
     	</condition>
@@ -1268,7 +1268,7 @@
    <wind>
         <name>wind</name>
         <mode>looped</mode>
-        <path>Aircraft/737-800YV/Sounds/Wind.wav</path>
+        <path>Aircraft/737-Next-Generation/Sounds/Wind.wav</path>
         <property>/velocities/airspeed-kt</property>
         <volume>
             <property>/position/altitude-ft</property>
@@ -1300,4 +1300,3 @@
     </fx>
     
 </PropertyList>
-
