@@ -49,7 +49,7 @@ setlistener("/sim/signals/fdm-initialized", func {
 });
 
 var readSettings = func {
-	io.read_properties(getprop("/sim/fg-home") ~ "/Export/737-800YV-config.xml", "/systems/acconfig/options");
+	io.read_properties(getprop("/sim/fg-home") ~ "/Export/737NG-config.xml", "/systems/acconfig/options");
 	setprop("/sim/yokes-visible", getprop("/systems/acconfig/options/yokes-visible"));
 	setprop("/controls/switches/increase-fps", getprop("/systems/acconfig/options/increase-fps"));
 }
@@ -57,7 +57,7 @@ var readSettings = func {
 var writeSettings = func {
 	setprop("/systems/acconfig/options/yokes-visible", getprop("/sim/yokes-visible"));
 	setprop("/systems/acconfig/options/increase-fps", getprop("/controls/switches/increase-fps"));
-	io.write_properties(getprop("/sim/fg-home") ~ "/Export/737-800YV-config.xml", "/systems/acconfig/options");
+	io.write_properties(getprop("/sim/fg-home") ~ "/Export/737NG-config.xml", "/systems/acconfig/options");
 }
 
 var systemsReset = func { # Not used yet, for panel states when implemented
